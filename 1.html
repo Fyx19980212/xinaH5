@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凤凰新闻</title>
+    <link rel="stylesheet" href="reset.min.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <header class="ifeng-hd">
+        <a href="#"><img src="1.jpg" alt=""></a>
+    </header>
+
+    <nav class="ifeng-nav">
+        <a href="#" class="current">头条</a>
+        <a href="#">视频</a>
+        <a href="#">财经</a>
+        <a href="#">凤凰号</a>
+        <a href="#">凤凰卫视</a>
+    </nav>
+
+    <!-- swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#"><img src="https://n.sinaimg.cn/default/transform/310/w710h400/20200618/a350-ivffpcs0378557.jpg" alt="" style="width: 100%;"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"><img src="https://n.sinaimg.cn/default/transform/310/w710h400/20200618/a764-ivffpcs0214162.jpg" alt="" style="width: 100%;"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"><img src="https://k.sinaimg.cn/n/blog/310/w710h400/20200616/b81c-iuzasxs7756989.jpg/w710h400z1l50t1505.jpg?by=comos" alt="" style=" width: 100%;"></a>
+            </div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                    <i class="icon-font icon-com"></i>
+                </span>
+            </p>
+        </aside>
+    </section>
+
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                    <i class="icon-font icon-com"></i>
+                </span>
+            </p>
+        </aside>
+    </section>
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                        <i class="icon-font icon-com"></i>
+                    </span>
+            </p>
+        </aside>
+    </section>
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                    <i class="icon-font icon-com"></i>
+                </span>
+            </p>
+        </aside>
+    </section>
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                        <i class="icon-font icon-com"></i>
+                    </span>
+            </p>
+        </aside>
+    </section>
+    <!-- 左图右文 -->
+    <section class="ifeng-sec">
+        <!-- 图 -->
+        <figure class="pic"><img src="3.jpg" alt=""></figure>
+        <!-- 文 -->
+        <aside class="txt">
+            <h2>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻</h2>
+            <p>
+                <span class="time">一分</span>
+                <span class="num">120
+                    <i class="icon-font icon-com"></i>
+                </span>
+            </p>
+        </aside>
+    </section>
+
+
+
+    <script type="text/javascript">
+        function refreshRem() {
+            var desW = 750,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+    <script src="swiper.min.js"></script>
+    <!-- swiper -->
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true, // 循环模式选项
+            effect: 'fade', //渐隐渐现德效果
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true, //点击分页器也可以切换
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
+    </script>
+</body>
+
+</html>
