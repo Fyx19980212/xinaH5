@@ -105,3 +105,42 @@
 .icon-com::before {
     content: '\E90D';
 }
+
+.txt .txt_h2 {
+    margin-bottom: .3rem;
+}
+
+.ifeng2 {
+    padding: .24rem .3rem;
+    border-bottom: 1px red solid;
+}
+
+.ifeng2 h2 {
+    display: -webkit-box;
+    /* 垂直排列   默认水平 */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: .1rem;
+}
+
+.ifeng2img {
+    display: flex;
+    margin-bottom: .1rem;
+}
+
+.ifeng2img img {
+    width: 31%;
+    margin-left: .1rem;
+}
+
+.ifeng2 p {
+    /* 控制子元素-水平排列两端对齐 */
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ifeng-img img {
+    width: 100%;
+}
